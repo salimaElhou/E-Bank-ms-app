@@ -31,6 +31,6 @@ Ce projet est un micro-service de gestion des comptes bancaires permettant :
 <img src="captures/6.png">
 <img src="captures/7.png">
 
-- GraphQL
+## GraphQL
 <img src="captures/8.png">
 <img src="captures/9.png">
