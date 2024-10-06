@@ -4,9 +4,21 @@ type Query{
     bankAccountById (id : String) : BankAccount
 }
 
+#Ajouter modif supp
+type Mutation {
+    addAccount(bankAccount :BankAccountDTO) : BankAccount,
+    updateAccount(id : String, bankAccount :BankAccountDTO) : BankAccount,
+    DeleteAccount(id : String) : Boolean
+}
+
 type BankAccount{
     id : String,
     createdAt : Float,
+    balance : Float,
+    currency : String,
+    type : String
+}
+input BankAccountDTO {
     balance : Float,
     currency : String,
     type : String
