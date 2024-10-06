@@ -1,4 +1,4 @@
-## Salima EL HOU
+## Salima EL HOU - SDIA 2
 # Développement d'un micro-service
 ## Les tâches réalisées
 
@@ -30,3 +30,7 @@ Ce projet est un micro-service de gestion des comptes bancaires permettant :
 <img src="captures/5.png">
 <img src="captures/6.png">
 <img src="captures/7.png">
+
+- GraphQL
+<img src="captures/8.png">
+<img src="captures/9.png">
